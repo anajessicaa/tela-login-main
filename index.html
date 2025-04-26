@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/cadastro.css">
+  <title>Cadastro</title>
+</head>
+<body>
+
+  <main id="container">
+    
+    <section class="imagem">
+      <img src="imagens/Campaign launch_Flatline.svg" alt="join">
+    </section>
+
+    <section class="cadastro">
+          <form action="#" method="get">
+
+            <div class="input-header">
+              <h1>Cadastre-se</h1>
+            </div>
+            
+
+            <div class="input-group">
+
+              <div class="input-flex">
+
+                <div class="input-box">
+                  <label for="nome">Nome</label>
+                  <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="input-box">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="input-box">
+                  <label for="usuario">Usuário</label>
+                  <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+                </div>
+
+                <div class="input-box">
+                  <label for="senha">Senha</label>
+                  <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+                
+                <div class="input-box">
+                  <label for="confirmSenha">Confirme a senha</label>
+                  <input type="password" id="confirmSenha" name="confirmSenha" placeholder="Confirme sua senha" required>
+                </div>
+
+                <div class="input-box">
+                  <label for="dataNascimento">Data de nascimento</label>
+                  <input type="date" id="dataNascimento" name="dataNascimento" placeholder="Digite" required>
+                </div>
+              </div>
+
+                <div class="input-genero">
+
+                  <div>
+                    <label for="genero">Genêro</label>
+                  </div>
+
+                  <div class="gender">
+                    <div class="genero-box">
+                      <label for="masc">Masculino</label>
+                      <input type="radio" name="genero" id="masc">
+                    </div>
+                    <div class="genero-box">
+                      <label for="fem">Feminino</label>
+                      <input type="radio" name="genero" id="fem">
+                    </div>
+                    <div class="genero-box">
+                      <label for="outro">Outro</label>
+                      <input type="radio" name="genero" id="outro">
+                    </div>
+                  </div>
+
+                </div>
+              
+            </div>
+          </form>
+
+          <button class="btn-cadastrar"><a href="#">Cadastrar</a></button>
+
+          <div class="fazer-login">
+            <p>Já tem uma conta? <a href="login.html">Fazer login</a></p>
+          </div>
+    
+    </section>
+  </main>
+</body>
+</html>
