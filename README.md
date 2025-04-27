@@ -40,6 +40,3 @@ Simula uma tela de autenticação de usuários, com páginas separadas para logi
 * Botão de cadastro
 
 * Link para voltar ao login
-
-# 📄 Licença
-Este projeto está sob licença MIT.
